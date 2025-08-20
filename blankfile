@@ -1,1 +1,9 @@
+Has anyone faced such issue?
 
+I created a custom policy using the maven archetype. Deployed the policy to exchange.
+In exchange i can see the new custom policy.
+When i go to API Manager, i am able to see the custom Policy inside the Automated Policies Section. But the custom policy is NOT VISIBLE under API Level Policies.
+
+Im using a developer trial account, below is my custom policy zip file
+
+https://github.com/FlashaholicPrince/sharedwithpublic/blob/3e0427374790a8133b852e4b9ab9fc251a3812a2/Log%20Client%20Locations.zip
