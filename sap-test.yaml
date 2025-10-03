@@ -1,0 +1,20 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: sap-test
+paths: 
+  /defaultResponse:
+    get:
+      parameters:
+        - name: resptype
+          in: header
+          schema:
+            example: Example
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/xml:
+              schema:
+                type: object
