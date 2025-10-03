@@ -5,12 +5,6 @@ info:
 paths: 
   /defaultResponse:
     get:
-      parameters:
-        - name: resptype
-          in: header
-          schema:
-            type: string
-          example: Example
       responses:
         '200':
           description: Successful response
@@ -18,3 +12,8 @@ paths:
             application/xml:
               schema:
                 type: object
+                properties:
+                  message:
+                    type: string
+                  status:
+                    type: string
