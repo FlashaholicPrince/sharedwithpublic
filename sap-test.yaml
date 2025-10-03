@@ -1,10 +1,23 @@
 openapi: "3.0.0"
 info:
-  version: 1.0.0
   title: sap-test
-paths: 
+  version: 1.0.0
+  x-sap-ext-overview:
+    - name: Interface Name
+      values:
+        - text: sap-test
+          format: plain
+  x-sap-api-type: REST
+  x-sap-resource-path: /defaultResponse
+  x-sap-data-source: APIPORTAL-MuleAPI
+
+servers:
+  - url: https://sap-sapi-ahygd9.5sc6y6-1.usa-e2.cloudhub.io/defaultResponse
+
+paths:
   /defaultResponse:
     get:
+      summary: Get default response
       responses:
         '200':
           description: Successful response
