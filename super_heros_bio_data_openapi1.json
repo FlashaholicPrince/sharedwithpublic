@@ -1,0 +1,73 @@
+{
+    "externalDocs": {
+        "description": "Graph Documentation",
+        "url": "https://help.sap.com/docs/graph"
+    },
+    "info": {
+        "title": "biodata-sapi",
+        "version": "1",
+        "x-sap-api-type": "REST",
+        "x-sap-data-source": "BioData-MuleAPI"
+    },
+    "openapi": "3.0.0",
+    "x-sap-shortText": "",
+    "x-sap-stateInfo": {
+        "state": "Beta"
+    },
+    "servers": [
+        {
+            "description": "Sandbox URL",
+            "url": "https://sandbox.api.sap.com/sapgraph"
+        },
+        {
+            "description": "Production URL",
+            "url": "https://us10.graph.sap/catalog/sap.s4"
+        }
+    ],
+    "tags": [
+        {
+            "name": "biodata-sapi"
+        }
+    ],
+	"components": {
+		"schemas": {
+			"BioData.biodata-sapi":{
+			        "title": "biodata-sapi",
+					"type": "object",
+					"x-sapgraph-root-entity": true,
+			}
+		}
+	}
+    "paths": {
+        "/bio/{id}": {
+            "get": {
+                "summary": "Get BioData by CID",
+                "description": "This resource fetches bio data based on the unique **id** sent in the URI Parameter",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "example": "DC0003"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "If **id** exists, returns the bio data",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+	"x-sapgraph-model-element": "entity"
+}
