@@ -1,0 +1,56 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "biodata-sap"
+  },
+  "paths": {
+    "/bioeen": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Returns the bio data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "description": "This resources fetches bio data een",
+        "operationId": "Get BioData een"
+      }
+    },
+    "/biotwee": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Returns the bio data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "description": "This resources fetches bio data twee",
+        "operationId": "Get BioData twee"
+      }
+    }
+  },
+  "components": {
+    "schemas": {},
+    "responses": {},
+    "parameters": {},
+    "examples": {},
+    "requestBodies": {},
+    "headers": {},
+    "securitySchemes": {},
+    "links": {},
+    "callbacks": {}
+  }
+}
