@@ -9,11 +9,11 @@ paths:
         - name: resptype
           in: header
           schema:
-            example: Example
             type: string
+          example: Example
       responses:
         '200':
-          description: ''
+          description: Successful response
           content:
             application/xml:
               schema:
