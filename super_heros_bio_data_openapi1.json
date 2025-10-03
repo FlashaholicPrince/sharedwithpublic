@@ -39,7 +39,7 @@
 		}
 	},
     "paths": {
-        "/bio/{id}": {
+        "/BioData/bio/{id}": {
             "get": {
                 "summary": "Get BioData by CID",
                 "description": "This resource fetches bio data based on the unique **id** sent in the URI Parameter",
