@@ -1,0 +1,50 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "movies-sapi",
+    "description": "Super-Movies-SAPI allows you to fetch the basic movies data of various super heros.",
+    "version": "1.0",
+    "x-sap-ext-overview": [
+      {
+        "name": "Interface Name",
+        "values": [
+          { "text": "movies-sapi", "format": "plain" }
+        ]
+      }
+    ],
+    "x-sap-api-type": "REST",
+    "x-sap-resource-path": "",
+    "x-sap-data-source": "Movies-MuleAPI"
+  },
+  "paths": {
+    "/movies/{id}": {
+      "get": {
+        "summary": "Get Movies by CID",
+        "description": "This resources fetches movies data based on the unique **character id** sent in the URI Parameter",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "MARVEL0001"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "If **character id** exists, returns the movies data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
