@@ -1,0 +1,50 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "biodata-sapi",
+    "description": "Super-Bio-SAPI allows you to fetch the basic bio-data of various super heros.",
+    "version": "1.0",
+    "x-sap-ext-overview": [
+      {
+        "name": "Interface Name",
+        "values": [
+          { "text": "biodata-sapi", "format": "plain" }
+        ]
+      }
+    ],
+    "x-sap-api-type": "REST",
+    "x-sap-resource-path": "",
+    "x-sap-data-source": "BioData-MuleAPI"
+  },
+  "paths": {
+    "/bio/{id}": {
+      "get": {
+        "summary": "Get BioData by CID",
+        "description": "This resource fetches bio data based on the unique **id** sent in the URI Parameter",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "DC0003"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "If **id** exists, returns the bio data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
