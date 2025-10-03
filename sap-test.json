@@ -28,7 +28,7 @@
             "content": {
               "application/xml": {
                 "schema": {
-                  "type": "object",
+                  "type": "string",
                   "properties": {
                     "message": { "type": "string" },
                     "status": { "type": "string" }
