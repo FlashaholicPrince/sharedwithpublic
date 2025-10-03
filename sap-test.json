@@ -1,0 +1,44 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "sap-test",
+    "version": "1.0.0",
+    "x-sap-ext-overview": [
+      {
+        "name": "Interface Name",
+        "values": [
+          { "text": "sap-test", "format": "plain" }
+        ]
+      }
+    ],
+    "x-sap-api-type": "REST",
+    "x-sap-resource-path": "/defaultResponse",
+    "x-sap-data-source": "APIPORTAL-MuleAPI"
+  },
+  "servers": [
+    { "url": "https://your-api-host.com" }
+  ],
+  "paths": {
+    "/defaultResponse": {
+      "get": {
+        "summary": "Get default response",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": { "type": "string" },
+                    "status": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
