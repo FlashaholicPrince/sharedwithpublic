@@ -34,10 +34,10 @@
 			"BioData.biodata-sapi":{
 			        "title": "biodata-sapi",
 					"type": "object",
-					"x-sapgraph-root-entity": true,
+					"x-sapgraph-root-entity": true
 			}
 		}
-	}
+	},
     "paths": {
         "/bio/{id}": {
             "get": {
