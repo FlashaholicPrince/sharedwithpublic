@@ -37,4 +37,4 @@ https://amzn.eu/d/bwOO3xg
 
 https://nl.pcpartpicker.com/list/MwqDBq
 
-Total = 1506 EUR
+Total = 1525 EUR
