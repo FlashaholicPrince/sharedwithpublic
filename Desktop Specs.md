@@ -1,35 +1,37 @@
-# Processor (319 EUR)
+# Processor (365 EUR)
 
-https://www.megekko.nl/product/7956/958218/Socket-1700-Processoren/Intel-Core-i7-14700F-processor
+https://www.megekko.nl/product/8200/295018/Socket-AM5-Processoren/AMD-Ryzen-7-7800X3D-Processor
 
+# GPU ()
 
-# GPU (449 EUR)
+TBD
 
-https://www.megekko.nl/product/1963/297407/Nvidia-Videokaarten/ASUS-GeForce-RTX-5060-TI-DUAL-RTX5060-Ti-O16G-Videokaart
+# PSU (85 EUR)
 
-# PSU (90 EUR)
+https://www.alternate.de/Corsair/RM650e-PC-Netzteil/html/product/100098359
 
-https://www.megekko.nl/product/4186/968314/PC-Voedingen-PSU-/Corsair-RM650e-2025-PSU-PC-voeding
+# Motherboard (138 EUR)
 
-# Motherboard (139 EUR)
-
-https://www.megekko.nl/product/7953/1080950/Intel-Socket-1700-Moederborden/MSI-B760-GAMING-PLUS-WIFI-moederbord?_gl=1*15n53vn*_up*MQ..*_gs*MQ..&gclid=EAIaIQobChMIm_zUjNmFkQMVF5uDBx2f-AvuEAQYAyABEgI3UfD_BwE&gbraid=0AAAAADh0v95cgjxMvuRV7wYL96V7L3NLh
+https://www.amazon.nl/dp/B0C3R2TXHJ?tag=pcpp00-21&linkCode=ogi&th=1&psc=1
 
 # Cooler (60 EUR)
 
 https://www.megekko.nl/product/1986/968902/All-in-one-waterkoeling/Cooler-Master-MasterLiquid-240-Core-II-ARGB-waterkoeler?_gl=1*15n53vn*_up*MQ..*_gs*MQ..&gclid=EAIaIQobChMIm_zUjNmFkQMVF5uDBx2f-AvuEAQYAyABEgI3UfD_BwE&gbraid=0AAAAADh0v95cgjxMvuRV7wYL96V7L3NLh
 
-# Case (102 EUR)
+# Case (95 EUR)
 
-https://www.megekko.nl/product/2013/1153798/PC-Behuizingen/Corsair-FRAME-4000D-RS-Black-Behuizing?_gl=1*1n90h0t*_up*MQ..*_gs*MQ..&gclid=EAIaIQobChMIm_zUjNmFkQMVF5uDBx2f-AvuEAQYAyABEgI3UfD_BwE&gbraid=0AAAAADh0v95cgjxMvuRV7wYL96V7L3NLh
+https://www.amazon.nl/dp/B0DFHNV7TK?tag=pcpp00-21&linkCode=ogi&th=1&psc=1
 
-# RAM X 2 (238 EUR)
+# RAM X 2 (243 EUR)
 
-https://www.megekko.nl/product/7962/1070468/DDR5-Geheugen/Kingston-DDR5-Fury-Beast-RGB-1x16GB-5600-KF556C36BBEA-16-geheugenmodule
+https://www.alternate.de/Kingston-FURY/DIMM-32-GB-DDR5-6000-(2x-16-GB)-Dual-Kit-Arbeitsspeicher/html/product/100052230
 
 # SSD 2TB (113 EUR)
 
 https://amzn.eu/d/bwOO3xg
 
+# PC Part Picker Link
 
-Total = 1510 EUR
+https://nl.pcpartpicker.com/list/MwqDBq
+
+Total = 1099 EUR
