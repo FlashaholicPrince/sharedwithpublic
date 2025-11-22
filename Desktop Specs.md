@@ -25,9 +25,9 @@ https://www.megekko.nl/product/1986/968902/All-in-one-waterkoeling/Cooler-Master
 
 https://www.amazon.nl/dp/B0DFHNV7TK?tag=pcpp00-21&linkCode=ogi&th=1&psc=1
 
-# RAM X 2 (243 EUR)
+# RAM X 2 (259 EUR)
 
-https://www.alternate.de/Kingston-FURY/DIMM-32-GB-DDR5-6000-(2x-16-GB)-Dual-Kit-Arbeitsspeicher/html/product/100052230
+https://www.alternate.nl/Kingston-FURY/32-GB-DDR5-6000-(2x-16-GB)-Kit-werkgeheugen/html/product/100052230
 
 # SSD 2TB (113 EUR)
 
@@ -37,4 +37,4 @@ https://amzn.eu/d/bwOO3xg
 
 https://nl.pcpartpicker.com/list/MwqDBq
 
-Total = 1490 EUR
+Total = 1506 EUR
