@@ -1,14 +1,17 @@
+# FINALIZED BUILD
+
+
 # Processor (365 EUR)
 
 https://www.megekko.nl/product/8200/295018/Socket-AM5-Processoren/AMD-Ryzen-7-7800X3D-Processor
 
-# GPU ()
+# GPU (379 EUR)
 
-TBD
+https://www.megekko.nl/product/1962/1639220/AMD-Videokaarten/Gigabyte-Radeon-RX-9060-XT-Gaming-16GB-OC-Videokaart
 
-# PSU (85 EUR)
+# PSU (97 EUR)
 
-https://www.alternate.de/Corsair/RM650e-PC-Netzteil/html/product/100098359
+https://www.megekko.nl/product/4186/968315/PC-Voedingen-PSU-/Corsair-RM750e-2025-PSU-PC-voeding
 
 # Motherboard (138 EUR)
 
@@ -34,4 +37,4 @@ https://amzn.eu/d/bwOO3xg
 
 https://nl.pcpartpicker.com/list/MwqDBq
 
-Total = 1099 EUR
+Total = 1490 EUR
